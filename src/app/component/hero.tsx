@@ -63,7 +63,7 @@ export function Hero() {
         </motion.div>
 
         {/* Hero Heading */}
-        <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }} className="text-5xl md:text-7xl font-extrabold text-white tracking-tight leading-tight mt-7">
+        <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }} className="text-5xl md:text-7xl font-extrabold text-white tracking-tight leading-tight mt-9">
           Experience the <span className="bg-gradient-to-r from-cyan-400 via-teal-500 to-blue-600 text-transparent bg-clip-text">Next-Gen AI</span>
         </motion.h1>
         <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }} className="text-lg md:text-xl text-gray-300 mt-6 max-w-2xl mx-auto">
